@@ -29,9 +29,17 @@ In folder [tutorial-single-stk][single-folder], the intial files are:
    * keep only one data file in [Data][data-folder]
    * once change another instrument, please keep the same data format in the ".csv" as the example [HK00008.csv][data-file]
 
+# Parallel computing
+## Brief gudelines
+1. run [main.R][para-cpt-main]
+2. set the path as main_dir = "< ...> /parellel-cpt", where "< ... > " should be the folder of "main.R", [parallel-cpt][parallel-cpt-folder]
+3. set "First_time = TRUE" for the first time. Set it "FALSE" next time.
+
 
 [single-folder]: https://github.com/nathanielwei/stks-simulator/tree/master/tutorial-single-stk
 [hk-share-cpt]: https://github.com/nathanielwei/stks-simulator/blob/master/tutorial-single-stk/hk-share-cpt.R
 [cpt-fun]: https://github.com/nathanielwei/stks-simulator/blob/master/tutorial-single-stk/fn_cpt_stationary.R
 [data-folder]: https://github.com/nathanielwei/stks-simulator/tree/master/tutorial-single-stk/Data
 [data-file]: https://github.com/nathanielwei/stks-simulator/blob/master/tutorial-single-stk/Data/HK00008.csv
+[para-cpt-main]: https://github.com/nathanielwei/stks-simulator/blob/master/parallel-cpt/main.R
+[parallel-cpt-folder]:https://github.com/nathanielwei/stks-simulator/tree/master/parallel-cpt
