@@ -19,7 +19,7 @@ In folder [tutorial-single-stk][single-folder], the intial files are:
    * Keep the 2 columns to be **Data** (d/m/y) and **Price**
    * The date format is very important
 
-# Brief guidelines
+##  Brief guidelines
 1. Make a clone, then have a folder [tutorial-single-stk][single-folder]
 2. Only keep [hk-share-cpt.R][hk-share-cpt], [fn_cpt_stationary.R][cpt-fun], and folder [Data][data-folder] left
 3. Set **First_Time = TRUE** in [hk-share-cpt.R][hk-share-cpt] for first run; otherwise, set it **FALSE**
