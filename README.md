@@ -17,7 +17,7 @@ In folder [tutorial-single-stk][single-folder], the intial files are:
 # Brief guidelines
 1. Make a clone, then have a folder [tutorial-single-stk][single-folder]
 2. Only keep [hk-share-cpt.R][hk-share-cpt], [fn_cpt_stationary.R][cpt-fun], and folder [Data][data-folder] left
-3. Set **First_Time = TRUE** in [hk-share-cpt.R][hk-share-cpt] for first run; otherwise, set it *FALSE*
+3. Set **First_Time = TRUE** in [hk-share-cpt.R][hk-share-cpt] for first run; otherwise, set it **FALSE**
 4. Set main_dir to be the path of folder [tutorial-single-stk][single-folder]  
    with steps 1-4, one can repeat the work already
 5. Change the data in [Data][data-folder] if needed
