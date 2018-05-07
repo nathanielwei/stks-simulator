@@ -32,7 +32,7 @@ In folder [tutorial-single-stk][single-folder], the intial files are:
 # Parallel computing
 ## Brief gudelines
 1. run [main.R][para-cpt-main]
-2. set the path as main_dir = "< ...> /parellel-cpt", where "< ... > " should be the folder of "main.R", [parallel-cpt][parallel-cpt-folder]
+2. set the path as main_dir = "< ...> /parellel-cpt/", where "< ... > " should be the folder of "main.R", [parallel-cpt][parallel-cpt-folder]
 3. set "First_time = TRUE" for the first time. Set it "FALSE" next time.
 
 
