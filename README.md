@@ -1,3 +1,6 @@
+R version 3.4.4  
+RStudio version 1.1.442  
+
 # Single stock case
 In folder [tutorial-single-stk][single-folder], the intial files are:  
 * [hk-share-cpt.R][hk-share-cpt]
