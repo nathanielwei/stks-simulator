@@ -3,10 +3,12 @@ In folder [tutorial-single-stk][single-folder], the intial files are:
 * [hk-share-cpt.R][hk-share-cpt]
   * A main file --- only need to run this file and keep [fn_cpt_stationary.R][cpt-fun] and 
     Folder [Data][data-folder] in the same path
-  * If one is first time to run this file: set **<span style="color:blue">First-Time</span> = <span style="color:red">TRUE</span>**
-  * Double check the variable **main_dir** 
-    * If < main_dir = paste0(here(),"/") > does not represent the path as where your main file is, set it as
-      * main_dir = "C:/Users/Nathaniel/Desktop/parallel_computing/Task3/tutorial-single-stk/"
+  * If one is first time to run this file: set **First-Time = TRUE**
+  * Double check the variable **main_dir**:
+    * If < main_dir = paste0(here(),"/") > does not represent the path as where your main file is, set it as    
+      main_dir = " < path >./tutorial-single-stk/"
+    * For exaple, set it as  
+      main_dir = "C:/Users/Nathaniel/Desktop/parallel_computing/Task3/tutorial-single-stk/"      
 * [fn_cpt_stationary.R][cpt-fun]
 * Folder [Data][data-folder], inside which is [HK00008.csv][data-file]
    * Please check the data format in [HK00008.csv][data-file]
