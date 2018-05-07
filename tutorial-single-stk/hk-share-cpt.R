@@ -1,5 +1,7 @@
 # The 1st time ussage, use TRUE
-if(FALSE){
+First_Time = FALSE
+
+if(First_Time){
   install.packages("TTR")
   install.packages("xts")
   install.packages("zoo")
@@ -47,7 +49,7 @@ parameter_MRP_dir = paste0(main_dir, "Parameter_MRP/")
 pdf_dir = paste0(main_dir, "PDF/")
 
 # Make dir first time
-if(FALSE){
+if(First_Time){
   dir.create(save_dir)
   dir.create(test_dir)
   dir.create(parameter_dir)
