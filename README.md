@@ -3,8 +3,8 @@ RStudio version 1.1.442
 
 # Updates  
 1. Add the simplified codes for generating the simulation results of a single stock
-2. See the usage in [main-singleshare-cpt.R][simplified]  
-3. All files are in the foler [simplified-single-stk][fodler_simplified]
+2. See the comments of the usage in [main-singleshare-cpt.R][simplified]  
+3. All files are in the folder [simplified-single-stk][fodler_simplified]
 
 
 [simplified]:https://github.com/nathanielwei/stks-simulator/tree/master/simplified-single-stk  
