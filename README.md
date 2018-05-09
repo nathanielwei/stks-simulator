@@ -1,6 +1,13 @@
 R version 3.4.4  
 RStudio version 1.1.442  
 
+# Updates  
+1. Add the simplified codes for generating the simulation results of a single stock
+2. See the usage in [main-singleshare-cpt.R][simplified]  
+
+[simplified]:https://github.com/nathanielwei/stks-simulator/tree/master/simplified-single-stk
+
+
 # Single stock case
 In folder [tutorial-single-stk][single-folder], the intial files are:  
 * [hk-share-cpt.R][hk-share-cpt]
