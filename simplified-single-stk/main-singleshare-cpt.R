@@ -162,7 +162,7 @@ for(NoData in Days ){
   result=c(SpeedOfMRP,LongRunMean,Vol)
   parameter_MRP_file = paste0(parameter_MRP_dir,"Parameter_MRP_",stk_name,'.csv')
   # write.csv(result,row.names = c("Speed Of MRP","Long Run Mean","Volatility"),
-            parameter_MRP_file)
+  #         parameter_MRP_file)
   
 
   
