@@ -1,6 +1,25 @@
 R version 3.4.4  
 RStudio version 1.1.442  
+# Dependencies on Ubuntu 16.40
+1. open terminal
+2. [Click me and follow Step 1-2][link]
 
+[link]: https://www.digitalocean.com/community/tutorials/how-to-install-r-packages-using-devtools-on-ubuntu-16-04 
+
+3.   install.packages("TTR")  
+     install.packages("xts")  
+     install.packages("zoo")
+     install.packages("quantmod")
+     install.packages("PerformanceAnalytics")
+     install.packages("stringr")
+     install.packages("pracma")
+     install.packages("parallel")
+     install.packages("Sim.DiffProc")
+     install.packages("rms")
+     install.packages("tseries")
+     install.packages("here")
+     install.packages("rgl")
+     install.packages("forecast")
 # Updates  
 1. Add the simplified codes for generating the simulation results of a single stock
 2. See the comments of usage in [main-singleshare-cpt.R][simplified]  
